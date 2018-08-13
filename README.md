@@ -3,7 +3,10 @@ An simple publisher and subscriber examples using Python and Mosquitto.
 
 ## INSTALL
 ```bash
-sudo apt-get install mosquitto* -y 
+sudo apt install mosquitto* -y 
+sudo apt install python-pip python3-pip -y
+sudo pip install paho-mqtt
+sudo pip3 install paho-mqtt
 echo "MOSQUITTO IS READY TO BE USED"
 ```
 
